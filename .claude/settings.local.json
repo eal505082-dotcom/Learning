@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "deny": [
+      "Bash(rm:*)"
+    ],
+    "allow": [
+      "mcp__obsidian__obsidian_append_content"
+    ]
+  }
+}
