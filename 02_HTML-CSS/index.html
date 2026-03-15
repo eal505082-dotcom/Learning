@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>はじめてのHTML</title>
+    <meta charset="UTF-8">
+    <style>
+      body {
+        background-color: #f5f5f5;
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: #2563eb;
+        color: white;
+        padding: 20px 40px;
+      }
+
+      nav {
+        background-color: #1e40af;
+        padding: 10px 40px;
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        margin-right: 20px;
+      }
+
+      main {
+        padding: 40px;
+      }
+
+      h2 {
+        color: #374151;
+      }
+
+      a {
+        color: #2563eb;
+      }
+
+      .card-container {
+        display: flex;
+        gap: 20px;
+      }
+
+      .card {
+        background-color: white;
+        padding: 20px;
+        border: 2px solid #e5e7eb;
+        border-radius: 8px;
+        flex: 1;
+      }
+
+      section {
+        margin-bottom: 30px;
+      }
+
+      input, select {
+        padding: 8px 12px;
+        border: 1px solid #d1d5db;
+        border-radius: 4px;
+        font-size: 16px;
+        margin-right: 8px;
+      }
+
+      button {
+        padding: 8px 20px;
+        background-color: #2563eb;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+
+      footer {
+        background-color: #374151;
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+
+      @media (max-width: 768px) {
+        .card-container {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>自己紹介ページ</h1>
+    </header>
+
+    <nav>
+      <a href="#about">基本情報</a>
+      <a href="#skills">スキル</a>
+      <a href="#contact">お問い合わせ</a>
+    </nav>
+
+    <main>
+      <section id="about">
+        <div class="card-container">
+          <div class="card">
+            <h2>基本情報</h2>
+            <p>Web開発を勉強中です。</p>
+          </div>
+
+          <div class="card">
+            <h2>学習中の技術</h2>
+            <ul>
+              <li>HTML & CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h2>リンク</h2>
+            <a href="https://github.com/eal505082-dotcom">私のGitHub</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>お問い合わせ</h2>
+        <form>
+          <div>
+            <label for="name">名前：</label>
+            <input type="text" id="name" placeholder="名前を入力">
+          </div>
+          <br>
+          <div>
+            <label for="email">メール：</label>
+            <input type="email" id="email" placeholder="メールアドレス">
+          </div>
+          <br>
+          <div>
+            <label for="subject">件名：</label>
+            <select id="subject">
+              <option>お仕事の依頼</option>
+              <option>質問</option>
+              <option>その他</option>
+            </select>
+          </div>
+          <br>
+          <button type="submit">送信する</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 自己紹介ページ</p>
+    </footer>
+  </body>
+</html>

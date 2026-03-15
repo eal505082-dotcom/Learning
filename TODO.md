@@ -22,16 +22,16 @@
 ### 02. HTML & CSS
 目標：Webページの構造とデザインを自力で組めるようになる
 
-- [ ] HTMLとは何か、Webページの仕組みを理解する
-- [ ] 基本タグ（html, head, body, div, p, a, img, ul, ol, table）
-- [ ] フォーム要素（input, button, form, select）
-- [ ] セマンティックHTML（header, nav, main, section, footer）
-- [ ] CSSの基本（セレクタ, プロパティ, 値）
-- [ ] ボックスモデル（margin, padding, border）
-- [ ] Flexbox レイアウト
+- [x] HTMLとは何か、Webページの仕組みを理解する
+- [x] 基本タグ（html, head, body, div, p, a, img, ul, ol, table）
+- [x] フォーム要素（input, button, form, select）
+- [x] セマンティックHTML（header, nav, main, section, footer）
+- [x] CSSの基本（セレクタ, プロパティ, 値）
+- [x] ボックスモデル（margin, padding, border）
+- [x] Flexbox レイアウト
 - [ ] Grid レイアウト
-- [ ] レスポンシブデザイン（メディアクエリ）
-- [ ] 簡単なWebページを1つ作成する（ハンズオン）
+- [x] レスポンシブデザイン（メディアクエリ）
+- [x] 簡単なWebページを1つ作成する（ハンズオン）
 
 ### 03. JavaScript
 目標：プログラミングの基礎を身につけ、Webページに動きをつけられるようになる
