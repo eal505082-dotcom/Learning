@@ -1,0 +1,14 @@
+# 環境変数（パスワード等の秘密情報）
+.env
+.env.local
+
+# Node.js の依存パッケージ
+node_modules/
+
+# OSが自動生成するファイル
+.DS_Store
+Thumbs.db
+
+# エディタの設定ファイル
+.vscode/
+.idea/
